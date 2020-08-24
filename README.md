@@ -26,3 +26,24 @@ $ sudo groupmod -n [new-username] [old-username]
 ```
 $ sudo hostnamectl set-hostname [new-hostname]
 ```
+### Clear cache
+
+```
+$ echo 1 > /proc/sys/vm/drop_caches
+```
+
+### See and adjust swappiness
+```
+$ cat /proc/sys/vm/swappiness
+$ sysctl vm.swappiness=[0-100, most recommend 10 (default is 60)]
+```
+
+### See and adjust inode cache
+```
+$ cat /proc/sys/vm/vfs_cache_pressure
+$ sysctl vm.vfs_cache_pressure=50 (default is 100)
+```
+
+
+## Websites
+* [https://easylinuxtipsproject.blogspot.com/p/speed-mint.html#ID1.1](Speed Up Mint)
