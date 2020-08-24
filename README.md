@@ -46,4 +46,4 @@ $ sysctl vm.vfs_cache_pressure=50 (default is 100)
 
 
 ## Websites
-* [https://easylinuxtipsproject.blogspot.com/p/speed-mint.html#ID1.1](Speed Up Mint)
+* [Speed up Linux Mint](https://easylinuxtipsproject.blogspot.com/p/speed-mint.html#ID1.1)
