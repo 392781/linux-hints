@@ -26,13 +26,14 @@ $ sudo groupmod -n [new-username] [old-username]
 ```
 $ sudo hostnamectl set-hostname [new-hostname]
 ```
+
+## Memory adjustments
+
 ### Clear cache
 
 ```
 $ echo 1 > /proc/sys/vm/drop_caches
 ```
-
-## Memory adjustments
 
 ### See and adjust swappiness
 ```
