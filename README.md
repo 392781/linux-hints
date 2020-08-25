@@ -32,6 +32,8 @@ $ sudo hostnamectl set-hostname [new-hostname]
 $ echo 1 > /proc/sys/vm/drop_caches
 ```
 
+## Memory adjustments
+
 ### See and adjust swappiness
 ```
 $ cat /proc/sys/vm/swappiness
@@ -42,6 +44,21 @@ $ sysctl vm.swappiness=[0-100, most recommend 10 (default is 60)]
 ```
 $ cat /proc/sys/vm/vfs_cache_pressure
 $ sysctl vm.vfs_cache_pressure=50 (default is 100)
+```
+
+### Do both of the above permanently
+Using your favorite text editor (in my case vim)
+```
+$ sudo vim /etc/sysctl.conf
+```
+at the bottom add the following lines:
+```
+vm.swappiness=10
+vm.vfs_cache_pressure=50
+```
+then run this line:
+```
+$ sudo sysctl -p
 ```
 
 
