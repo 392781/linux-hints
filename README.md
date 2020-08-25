@@ -31,8 +31,10 @@ $ sudo hostnamectl set-hostname [new-hostname]
 
 ### Clear cache
 
+As superuser (sudo won't work, need to do `su` or on Ubuntu `sudo -i` then type that):
+
 ```
-$ echo 1 > /proc/sys/vm/drop_caches
+# echo 1 > /proc/sys/vm/drop_caches
 ```
 
 ### See and adjust swappiness
