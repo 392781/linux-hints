@@ -6,6 +6,8 @@ I'm fed up looking up Linux set up instructions on the internet... Time to make 
 $ gsettings set org.gnome.gnome-screenshot auto-save-directory "[complete-path-to-new-directory]"
 ```
 
+## Name adjustments
+
 ### Change username, groupname, and ~$ dir
 First kill everything (ideally you'd do this from a different user or superuser account)
 ```
@@ -64,6 +66,11 @@ then run this line:
 $ sudo sysctl -p
 ```
 
+## Versions
+OS version + Ubuntu version for Ubuntu based systems:
+```
+$ cat /etc/os-release
+```
 
 ## Websites
 * [Speed up Linux Mint](https://easylinuxtipsproject.blogspot.com/p/speed-mint.html#ID1.1)
