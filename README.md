@@ -71,7 +71,7 @@ OS version + Ubuntu version for Ubuntu based systems:
 ```
 $ cat /etc/os-release
 ```
-Debian version in Ubuntu based systems:
+## Debian version in Ubuntu based systems:
 ```
 $ cat /etc/debian_version
 ```
