@@ -71,6 +71,10 @@ OS version + Ubuntu version for Ubuntu based systems:
 ```
 $ cat /etc/os-release
 ```
+Debian version in Ubuntu based systems:
+```
+$ cat /etc/debian_version
+```
 
 ## Websites
 * [Speed up Linux Mint](https://easylinuxtipsproject.blogspot.com/p/speed-mint.html#ID1.1)
