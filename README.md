@@ -1,10 +1,22 @@
 # dotfiles-and-hints
 I'm fed up looking up Linux set up instructions on the internet... Time to make my own reference.
 
+## Image stuff
+
 ### Change screenshot default folder
 ```
 $ gsettings set org.gnome.gnome-screenshot auto-save-directory "[complete-path-to-new-directory]"
 ```
+
+### Fix PDF thumbnails
+```
+$ sudo vim /etc/apparmor.d/local/usr.bin.evince
+```
+then add to end of file
+```
+owner /tmp/{,.}gnome-desktop-thumbnailer.* w,
+```
+finally `rm -rf ~/.cache/thumbnails/` for good measure and reboot.
 
 ## Name adjustments
 
