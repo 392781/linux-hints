@@ -90,3 +90,4 @@ $ cat /etc/debian_version
 
 ## Websites
 * [Speed up Linux Mint](https://easylinuxtipsproject.blogspot.com/p/speed-mint.html#ID1.1)
+* [Disable USB webcam microphone](https://rietta.com/blog/block-webcam-audio-ubuntu-linux/)
