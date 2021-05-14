@@ -91,3 +91,4 @@ $ cat /etc/debian_version
 ## Websites
 * [Speed up Linux Mint](https://easylinuxtipsproject.blogspot.com/p/speed-mint.html#ID1.1)
 * [Disable USB webcam microphone](https://rietta.com/blog/block-webcam-audio-ubuntu-linux/)
+* [Fix home directory icons](https://www.linuxquestions.org/questions/ubuntu-63/how-to-restore-default-folder-icons-4175645246/)
