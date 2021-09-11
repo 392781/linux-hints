@@ -92,3 +92,4 @@ $ cat /etc/debian_version
 * [Speed up Linux Mint](https://easylinuxtipsproject.blogspot.com/p/speed-mint.html#ID1.1)
 * [Disable USB webcam microphone](https://rietta.com/blog/block-webcam-audio-ubuntu-linux/)
 * [Fix home directory icons](https://www.linuxquestions.org/questions/ubuntu-63/how-to-restore-default-folder-icons-4175645246/)
+* [Fix suspend issue while using NVIDIA drivers](https://forums.linuxmint.com/viewtopic.php?p=1728952&sid=d2f654dfa1082400eeea98c9fbf01918#p1728952)
