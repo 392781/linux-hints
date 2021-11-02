@@ -88,6 +88,10 @@ Debian version in Ubuntu based systems:
 $ cat /etc/debian_version
 ```
 
+## Audio
+
+### [Noise Cancellation](https://askubuntu.com/questions/18958/realtime-noise-removal-with-pulseaudio)
+
 ## Websites
 * [Speed up Linux Mint](https://easylinuxtipsproject.blogspot.com/p/speed-mint.html#ID1.1)
 * [Disable USB webcam microphone](https://rietta.com/blog/block-webcam-audio-ubuntu-linux/)
