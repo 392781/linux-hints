@@ -78,6 +78,10 @@ then run this line:
 $ sudo sysctl -p
 ```
 
+## GPU
+
+Fix for not waking up after suspend (monitor black but computer running): [`/usr/bin/nvidia-sleep.sh`](https://forums.linuxmint.com/viewtopic.php?f=49&t=361973&p=2099605&hilit=cannot+wake+from+suspend#p2099605) needs to be disabled by setting `exit 0` at the top of the file.
+
 ## Versions
 OS version + Ubuntu version for Ubuntu based systems:
 ```
