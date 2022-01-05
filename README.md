@@ -102,3 +102,4 @@ $ cat /etc/debian_version
 * [Fix home directory icons](https://www.linuxquestions.org/questions/ubuntu-63/how-to-restore-default-folder-icons-4175645246/)
 * [Fix suspend issue while using NVIDIA drivers](https://forums.linuxmint.com/viewtopic.php?p=1728952&sid=d2f654dfa1082400eeea98c9fbf01918#p1728952)
 * [Enable persistance mode for NVIDIA](https://forums.developer.nvidia.com/t/setting-up-nvidia-persistenced/47986/11)
+* [bashrc Generator](https://bashrcgenerator.com/)
